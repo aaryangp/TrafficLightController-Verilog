@@ -22,6 +22,8 @@
 - The design ensures **no conflicting green signals**.
 - This system can be implemented using a **finite state machine (FSM)** approach in Verilog.
 
+---
+
 ## 2) Highway-country road Traffic Signal Controller 
 
 # Specification
