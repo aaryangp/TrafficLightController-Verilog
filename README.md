@@ -1,7 +1,6 @@
-#1
-4-Way Traffic Signal Controller
+## 1) 4-Way Traffic Signal Controller
 
-## Problem Statement
+# Problem Statement
 
 - A traffic light is to be installed at the intersection of **four roads**.
 - The directions are assumed to be **East, West, North, and South**.
@@ -10,8 +9,6 @@
 
 ---
 
-## 4-Way Traffic Signal Controller Design
-
 - Each traffic light is set to **Green for 30 seconds**.
 - After the green phase, the light is set to **Yellow for 5 seconds**.
 - The same process is **repeated for all other directions**.
@@ -19,16 +16,15 @@
 
 ---
 
-## Notes
+# Notes
 
 - The controller operates sequentially for each direction.
 - The design ensures **no conflicting green signals**.
 - This system can be implemented using a **finite state machine (FSM)** approach in Verilog.
 
-#2
-Highway-country road Traffic Signal Controller – Specification
+## 2) Highway-country road Traffic Signal Controller 
 
-## Specification
+# Specification
 
 - As soon as there are no cars on the country road, the country road traffic signal turns yellow and then red, and the traffic signal on the main highway turns green again.
 
